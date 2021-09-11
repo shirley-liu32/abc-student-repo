@@ -1,6 +1,5 @@
 # ABC Browser Circus 🎪
 
-Hi! My name is [your name] and in this repository I will develop my work for the [ABC Browser Circus](https://abc.leoneckert.com) class. 
+Hi! My name is Shirley Liu and in this repository I will develop my work for the [ABC Browser Circus](https://abc.leoneckert.com) class. 
 
-[Check it out!](http://link-inside-these-brackets-when-you-hav-it) (fixing this link will be my first achievement 😜)
-
+[Check it out!](https://shirley-liu32.github.io/abc-student-repo/index.html)
