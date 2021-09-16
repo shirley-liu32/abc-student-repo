@@ -2,7 +2,7 @@
 
 body{
     text-align:center;
-    background-image: url("assets/background.png");
+    background-image: url("assets/background2.png");
     background-repeat: no-repeat;
 }
 #container {
@@ -18,19 +18,67 @@ body{
 
 #miniProjects{
     text-align: center;
-    width: 50%;
+    width: 100%;
     padding: 2em;
-    p
+    font-size: .5em;
+    margin-top: 0em;
 }
 
 #bigProjects{
     text-align: center;
     padding: 2em;
-    width: 50%;
+    width: 100%;
+    margin-top: 0.5em;
+    font-size: 1.5em;
 
 }
 
-.scroll-element{
-    border: 2px black solid;
-    margin: 2em;
+a{
+    text-decoration: none;
+}
+
+#arrow-img{
+    margin-top: 10em;
+}
+
+*{margin:0;padding:0;}
+.wrap{width:100%;}
+.gradient-text{
+  font-family:"Abril Fatface", sans-serif;
+  background: linear-gradient(to right, rgb(148, 12, 148),rgb(243, 181, 255),rgb(157, 220, 224));
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  font-size:8rem;
+  width:80vw;
+  margin:30vh auto;
+  display:block;
+  text-align:center;
+  transition: color .2s ease-in-out;
+  text-transform:uppercase;
+  font-weight:900;
+}
+.gradient-text:hover{
+  color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
+hr{
+    border: 5px black solid;
+    width: 20%;
+}
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
