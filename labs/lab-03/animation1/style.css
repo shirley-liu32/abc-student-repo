@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+    margin-top: 100px;
+}
+
+#button{
+    color: red;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}

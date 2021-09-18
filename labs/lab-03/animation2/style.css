@@ -1,0 +1,57 @@
+body{
+    background-color: lavender;
+    margin: none;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.box-1{
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shrink{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    10%{
+        width: 40px;
+        width: 40px;
+    }
+    45%{
+        width: 5px;
+        width: 5px;
+    }
+    55%{
+        width: 5px;
+        width: 5px;
+    }
+    95%{
+        width: 40px;
+        width: 40px;
+    }
+
+}
+
+.box-2{
+    animation-name: shrink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
