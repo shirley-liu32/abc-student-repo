@@ -1,6 +1,6 @@
 # Reading Response 1
 ## High Infidelity by Elvia Wilik
 
+Elvia Wilk's High Infidelity claims that the physcial body and assumed identity have a relationship. One thing that stood out to me was how power structures play a role in the determining whether fabricating your identity is creative or violent. Wilk gives the example of Julie, who described herself as an elderly disabled woman but turned out ot be a middle aged male psychiatrist. The avatar behind Julie was in a much more privileged position and overall makes the fabrication a violent act. 
 
-
-
+Wilk's claim of virtual being another mode of reality was quite interesting as I had never thought about it that way. After reading through "High Infidelity" I do agree with the statement. Virtual identities can cause actual damage and trauma and thus cannot be called artificial or positioned in opposition to the real. Thinking about the relationship between the virtual and biological bodies, Instagram instantly comes to mind. I think of the numerous influencers carving perfect online personalities that followers see and believe is the whole reality. I don't believe this is limited to influencers but it's interesting to think about how much the impact varies, whether it's towards ourselves or others.
