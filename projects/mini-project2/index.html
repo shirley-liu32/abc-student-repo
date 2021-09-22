@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lofi Beats Break Time</title>
+</head>
+<body>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="assets/background.mp4" type="video/mp4">
+      </video>
+    <div id="content">
+        <h1>Lofi Beats Break Time</h1>
+        <form id="userInput">
+            <h2>What do you want to listen to?</h2>
+            <div id="radioButtons">
+            <input type="radio" id="rb" value="rb" name="choice">
+            <label for="rb">Cozy Winter</label><br>
+            <input type="radio" id="hipHop" value="hipHop" name="choice">
+            <label for="hipHop">Relaxing Beats</label><br>
+            <input type="radio" id="pop" value="pop" name="choice">
+            <label for="pop">Lazy Sunday</label>
+            </div>
+            <h2>How long do you want to take a break? </h2>
+            <input type="text" id="minutes"> Minutes
+            <div id="submitArea"> 
+            <input type="submit" value="Start" id="submit" onClick="checkInput();">
+            </div>
+        </form>
+    </div>
+<script src = "script.js"></script>
+</body>
+</html>
