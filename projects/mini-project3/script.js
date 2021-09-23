@@ -75,7 +75,7 @@ setInterval(()=>{
       document.getElementsByTagName('BODY')[0].innerHTML = '';
       var x = document.createElement("img");
       document.body.appendChild(x)
-      x.src = "assets/yay.gif";
+      x.src = "assets/yay2.gif";
       doneSound.play();
     }
   }
