@@ -1,0 +1,31 @@
+.movingBees{
+    width: 45px;
+    height: 45px;
+    background: url("assets/bee.svg");
+    position: fixed;
+    top:0px;
+    left:0px;
+    transition: transform 1s;
+  }
+
+  .queen{
+    width: 50px;
+    height: 50px;
+    background: url("assets/queen.svg");
+    position: fixed;
+    top:0px;
+    left:0px;
+    transition: transform 1s;
+  }
+
+body{
+  background-color: black;
+}
+
+#numHits{
+  font-family: "Abril Fatface", sans-serif;  
+  font-size: 1.25em;
+  color: white;
+  margin-left: 1em;
+}
+
