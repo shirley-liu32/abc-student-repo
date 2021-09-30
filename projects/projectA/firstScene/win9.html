@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-repeat: no-repeat;
+            overflow: hidden;
+            margin: 0;
+
+        }
+    </style>
+    <title>you</title>
+</head>
+<body>
+    <img src="../assets/fruit/9.png" alt="fruit" id="fruit"> 
+    <script>
+        let bite = new Audio('../assets/bite.ogg');
+        let fruit = document.getElementById("fruit");
+        fruit.addEventListener("click", myFunction);
+  
+        let counter = 0;
+
+
+        function myFunction(){
+            bite.play();
+            counter ++;
+            console.log(counter)
+            //if they clicked three times, done eating and move to next scene
+            if (counter == 3){
+                let pic = document.getElementsByTagName('img')[0];
+                pic.src = "../assets/fruit/last.jpeg"
+                let c1 = window.open("../secondScene/w1.html", "c1", "left=400, top=0, width=200, height=200"); 
+            }
+        }
+    </script>
+
+</body>
+</html>

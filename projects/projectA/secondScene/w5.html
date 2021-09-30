@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-repeat: no-repeat;
+            overflow: hidden;
+            margin:0;
+
+        }
+    </style>
+    <title>the</title>
+</head>
+<body>
+    <img src="../assets/chicken/5.png" alt="chicken" id="chicken" onmousemove="myFunction();"> 
+    <script>
+        function myFunction() {
+            var c6 = window.open("w6.html", "c6", "left=800, top=270, width=200, height=200");
+        } 
+
+        let eat = new Audio('../assets/chew.wav');
+        let c = document.getElementById("chicken");
+        c.addEventListener("click", eatChicken);
+  
+        let counter = 0;
+
+
+        function eatChicken(){
+            eat.play();
+            counter ++;
+            console.log(counter)
+            //if they clicked three times, done eating and move to next scene
+            if (counter == 3){
+                let pic = document.getElementsByTagName('img')[0];
+                pic.src = "../assets/last2.png"
+                let j1 = window.open("../thirdScene/w1.html", "j1", "left=400, top=0, width=200, height=200"); 
+            }
+        }
+    </script>
+</body>
+</html>
