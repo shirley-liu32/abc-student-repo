@@ -13,6 +13,7 @@ For this project, we should "challenge our beliefs what a website can be; an obj
 
 ## Process
 One of the most challenging parts of the project is figuring out how to challenge our own minds of what a browser can be. At first, my idea involved creating mini games with clues of how to play in the tab. However, after my meeting with Leon I had realized that the games were already well known and did not have much of a surprising element to it. Thus, I tried to brainstorm a new idea and came up with wanting to talk about how my parents show their love. To keep it from being just a story, I had to think of ways to make it more interactive. Thus, I thought it would be cool to have the scenes made up of nine windows and for each window to be revealed with the user moving their mouse over the window. Once all the windows are laid out, a message will be made across all the tabs. I felt that audio would be a great touch so I added sounds when the user would eat the chicken and fruit and drink the juice. 
+
 ![Sketch Page](sketch.png)
 
 
