@@ -3,6 +3,13 @@
 ## Introduction
 For this project, we should "challenge our beliefs what a website can be; an object, a place to linger, an experience, a feeling, a story." I Love You is an interactive experience that showcases the little moments in my life that I find heartwarming. The project is made up of three different scenes and each scene is made up of 9 popup windows. The user will look around and try to find out what to do to move on to the next scene and perhaps see the hints hidden in the title tabs.
 
+![Start Page](https://github.com/shirley-liu32/abc-student-repo/projects/projectA/start.png)
+
+![Fruit Page](https://github.com/shirley-liu32/projects/projectA/fruit.png)
+
+![Chicken Page](https://github.com/shirley-liu32/projects/projectA/chicken.png)
+
+![Juice Page](https://github.com/shirley-liu32/projects/projectA/juice.png)
 
 ## Process
 One of the most challenging parts of the project is figuring out how to challenge our own minds of what a browser can be. At first, my idea involved creating mini games with clues of how to play in the tab. However, after my meeting with Leon I had realized that the games were already well known and did not have much of a surprising element to it. Thus, I tried to brainstorm a new idea and came up with wanting to talk about how my parents show their love. To keep it from being just a story, I had to think of ways to make it more interactive. Thus, I thought it would be cool to have the scenes made up of nine windows and for each window to be revealed with the user moving their mouse over the window. Once all the windows are laid out, a message will be made across all the tabs. I felt that audio would be a great touch so I added sounds when the user would eat the chicken and fruit and drink the juice. 
