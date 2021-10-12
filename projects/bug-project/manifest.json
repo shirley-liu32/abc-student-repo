@@ -1,7 +1,7 @@
 {
-    "name": "Reloader",
+    "name": "ALERT",
     "version": "1.0",
-    "description": "Constantly Reloads Page",
+    "description": "Constantly Alerts You About Nothing at All",
     "manifest_version": 2,
     "permissions": [
       "activeTab"
@@ -13,7 +13,7 @@
       }
     ],
     "browser_action": {
-      "default_icon": "reload.png",
+      "default_icon": "alert.png",
       "default_popup": "popup/popup.html"
     }
 }
