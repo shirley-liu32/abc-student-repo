@@ -1,3 +1,4 @@
+//audio files and isPlaying variables to check which audio is playing
 let totoroSound = new Audio('totoro.mp3');
 let ponyoSound = new Audio('ponyo.mp3');
 let kikiSound = new Audio('kiki.mp3');
@@ -8,7 +9,7 @@ let isPlaying2 = false;
 let isPlaying3 = false;
 let isPlaying4 = false;
 
-
+//toggle play and pause for each audio
 function togglePlay1() {
     if (isPlaying1){
         totoroSound.pause();
@@ -98,11 +99,13 @@ spiritedSound.onpause = function() {
     isPlaying3 = false;
 };
 
+//when clicking on an icon, run the togglePlay functions
 document.getElementById("totoro").addEventListener("click", togglePlay1);
 document.getElementById("ponyo").addEventListener("click", togglePlay2);
 document.getElementById("kiki").addEventListener("click", togglePlay3);
 document.getElementById("spirited").addEventListener("click", togglePlay4);
 
+//changing the volume for the audio
 volume.addEventListener("change", function(e) {
     totoroSound.volume = e.currentTarget.value / 100;
     ponyoSound.volume = e.currentTarget.value / 100;
