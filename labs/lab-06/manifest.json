@@ -1,0 +1,14 @@
+{
+    "name": "Counting Extension",
+    "description": "1,2,3,5, you know what I mean",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action":
+    {
+        "default_icon":"tent.png",
+        "default_popup":"popup/popup.html"
+    },
+    "background":{
+        "scripts":["background.js"]
+    }
+  }
