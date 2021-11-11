@@ -2,6 +2,8 @@
 
 body{
     background-image: url("thanks.png");
+    background-repeat: no-repeat;
+
     font-family: 'Chewy', cursive;
 }
 

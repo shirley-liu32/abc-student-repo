@@ -3,6 +3,8 @@
 body{
     background-image: url("beatles.png");
     font-family: 'Chewy', cursive;
+    background-repeat: no-repeat;
+
 }
 
 h2{

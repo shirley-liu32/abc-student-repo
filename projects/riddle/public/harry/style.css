@@ -2,6 +2,8 @@
 
 body{
     background-image: url("harry.png");
+    background-repeat: no-repeat;
+
 }
 
 
