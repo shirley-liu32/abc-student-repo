@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body{
+    background-image: url("artic.png");
+}
+
+
+h2{
+  font-size: 30px;
+  font-family: 'Chewy';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  
+  .container {
+    position: relative;
+    height: 630px;
+
+  }
+  
+  .centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right:25%;
+    transform: translateY(-50%);
+  }
+
+  input[type='text']{
+    color: white;
+    width: 300px;
+    height: 30px;
+    margin-top: 1em;
+    font-family: 'Chewy';
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 1em;
+
+  }
+
+  button{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-family: 'Chewy';
+    border: none;
+    border-radius: 5px;
+    
+  }
