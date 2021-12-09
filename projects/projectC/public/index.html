@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>draw n guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+        <p class="playerJoined">Someone Just Joined,<span class="totalPlayers">3</span> players here.</p>
+        <p class="playerLeft">Someone Just Left, <span class="totalPlayers">2</span> players here.</p>
+        <h1>draw n guess</h1>
+        <div id="top-message">
+            <div id="guess">
+                Your Guess: 
+                <input type="text">
+            </div>
+            <div class="drawerTag">You're the drawer! Your word is <span></span>.</div>
+        </div>
+        <div class="userGuesses"></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="//code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
