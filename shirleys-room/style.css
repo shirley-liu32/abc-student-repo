@@ -1,92 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600&display=swap');
-
-body{
-    text-align:center;
-    background-image: url("assets/background2.png");
-    background-repeat: no-repeat;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
 }
-#container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: center;
-    font-family: 'Khand', sans-serif;
-    font-size: 2em;
-    justify-content: center;
-    padding-top: 10em;
+.grid > div {
+  background: black;
+  padding: 1rem;
+  position: relative;
 }
-
-#miniProjects{
-    text-align: center;
-    width: 100%;
-    padding: 2em;
-    font-size: .5em;
-    margin-top: 0em;
+.grid > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.grid > div img {
+  position: absolute;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#bigProjects{
-    text-align: center;
-    padding: 2em;
-    width: 100%;
-    margin-top: 0.5em;
-    font-size: 1.5em;
-
+body {
+  margin: 2rem;
+  background-color: black;
 }
 
-a{
-    text-decoration: none;
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-#arrow-img{
-    margin-top: 10em;
+h2 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-*{
-    margin:0;padding:0;
+/* Pulse Grow from https://ianlunn.github.io/Hover/ */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    transform: scale(1.1);
+  }
 }
-.wrap{
-    width:100%;
+@keyframes hvr-pulse-grow {
+  to {
+    transform: scale(1.1);
+  }
 }
-.gradient-text{
-  font-family:"Abril Fatface", sans-serif;
-  background: linear-gradient(to right, rgb(148, 12, 148),rgb(243, 181, 255),rgb(157, 220, 224));
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.gradient-text {
+  font-family: "Abril Fatface", sans-serif;
+  background: linear-gradient(to right, #940c94, #f3b5ff, #9ddce0);
   background-size: 200% 200%;
-  animation: rainbow 2s ease-in-out infinite;
+  -webkit-animation: rainbow 2s ease-in-out infinite;
+          animation: rainbow 2s ease-in-out infinite;
   background-clip: text;
-  -webkit-background-clip:text;
-  color:rgba(0,0,0,1);
-  font-size:8rem;
-  width:80vw;
-  margin:30vh auto;
-  display:block;
-  text-align:center;
-  transition: color .2s ease-in-out;
-  text-transform:uppercase;
-  font-weight:900;
-}
-.gradient-text:hover{
-  color:rgba(0,0,0,0);
-}
-@keyframes rainbow { 
-  0%{background-position:left}
-  50%{background-position:right}
-  100%{background-position:left}
+  -webkit-background-clip: text;
+  color: #ffffff;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  transition: color 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
-hr{
-    border: 5px black solid;
-    width: 20%;
+.gradient-text2 {
+  font-family: "Abril Fatface", sans-serif;
+  background: linear-gradient(to right, #940c94, #f3b5ff, #9ddce0);
+  background-size: 200% 200%;
+  -webkit-animation: rainbow 2s ease-in-out infinite;
+          animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: white;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  transition: color 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
-#content {
-    position: relative;
-}
-#content img {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+.gradient-text:hover {
+  color: rgba(0, 0, 0, 0);
 }
 
-#arrow{
-    margin-top: 2em;
+.gradient-text2:hover {
+  color: rgba(0, 0, 0, 0);
 }
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}/*# sourceMappingURL=style.css.map */
